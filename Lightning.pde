@@ -18,21 +18,13 @@ System.out.println(mouseX);
 System.out.println(mouseY);
  strokeWeight(2);
  stroke(255, 255, 0);
-  while(endY < 1000){
+
     endX = startX + (int)(Math.random()*19)-9;
     endY = startY + (int)(Math.random()*9);
     line(startX, startY, endX, endY);
     startX = endX;
     startY = endY;
-  }
-
-
-
-
-
-
-
-
+  
 
 strokeWeight(2);
 fill(255,255,0);
@@ -51,16 +43,6 @@ vertex(490,530);
 vertex(350,460);
 vertex(400,340);
 endShape();
-
-
-
-
-
-
-
-
-
-
 
 
 noStroke();
@@ -219,7 +201,6 @@ triangle(730,810,650,800,740,790);
 stroke(0);
 
 }
-
 
 void mousePressed()
 {
